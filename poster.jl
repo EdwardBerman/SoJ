@@ -70,9 +70,9 @@ translate(-width_pt/2, -height_pt/2)
 
 # Add bottom text
 fontsize(56)
-text("...This manifests in", Point((width_pt/3)+225, height_pt - 650), halign=:center)
-setfont("Helvetica_BoldItalic", 56)
-text("Low Industry Adoption", Point((2*width_pt/3)+225, height_pt - 650), halign=:center)
+text("...This manifests in", Point((width_pt/3)+425, height_pt - 650), halign=:center)
+setfont("Helvetica-Bold", 56)
+text("Low Adoption", Point((2*width_pt/3)+300, height_pt - 650), halign=:center)
 
 # Add call to action text
 fontsize(56)
